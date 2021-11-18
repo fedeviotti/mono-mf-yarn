@@ -1,0 +1,4 @@
+# Project exclude paths
+/node_modules/
+/packages/host/node_modules/
+/packages/remote-one/node_modules/
