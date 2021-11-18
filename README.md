@@ -52,3 +52,4 @@ It's possible to publish a packaheg to Github packages registry with yarn
 
 To publish follow this [guide](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#authenticating-to-github-packages).
 The working example of the *library* project is based on files: `package.json`, `.npmrc`
+The command line to execute to publish is `yarn publish` from the folder project.
