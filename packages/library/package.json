@@ -1,9 +1,10 @@
 {
   "name": "@fedeviotti/library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
+  "repository":"https://github.com/fedeviotti/mono-mf-yarn.git",
   "files": [
     "dist"
   ],

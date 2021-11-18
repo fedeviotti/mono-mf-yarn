@@ -9,40 +9,40 @@ import dts from 'rollup-plugin-dts';
 const packageJson = require('./package.json');
 
 export default [
-    {
-        input: 'src/index.ts',
-        output: [
-            {
-                file: packageJson.main,
-                format: 'cjs',
-                sourcemap: true,
-                name: 'react-ts-lib'
-            },
-            {
-                file: packageJson.module,
-                format: 'esm',
-                sourcemap: true
-            }
-        ],
-        plugins: [
-            external(),
-            resolve(),
-            commonjs(),
-            typescript({ tsconfig: './tsconfig.json' }),
-            postcss(),
-            terser()
-        ],
-        watch: {
-            buildDelay: 1000,
-        }
+  {
+    input: 'src/index.ts',
+    output: [
+      {
+        file: packageJson.main,
+        format: 'cjs',
+        sourcemap: true,
+        name: '@fedeviotti/library',
+      },
+      {
+        file: packageJson.module,
+        format: 'esm',
+        sourcemap: true,
+      },
+    ],
+    plugins: [
+      external(),
+      resolve(),
+      commonjs(),
+      typescript({ tsconfig: './tsconfig.json' }),
+      postcss(),
+      terser(),
+    ],
+    watch: {
+      buildDelay: 1000,
     },
-    {
-        input: 'dist/esm/types/index.d.ts',
-        output: [{ file: 'dist/index.d.ts', format: "esm" }],
-        external: [/\.css$/],
-        plugins: [dts()],
-        watch: {
-            buildDelay: 1000,
-        }
+  },
+  {
+    input: 'dist/esm/types/index.d.ts',
+    output: [{ file: 'dist/index.d.ts', format: 'esm' }],
+    external: [/\.css$/],
+    plugins: [dts()],
+    watch: {
+      buildDelay: 1000,
     },
-]
+  },
+];
