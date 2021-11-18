@@ -1,4 +1,4 @@
-.Button {
+.ButtonLib {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,14 +9,14 @@
     background-color: aliceblue;
 }
 
-.Button-primary {
+.ButtonLib-primary {
     background-color: aqua;
 }
 
-.Button-secondary {
+.ButtonLib-secondary {
     background-color: burlywood;
 }
 
-.Button-error {
+.ButtonLib-error {
     background-color: red;
 }

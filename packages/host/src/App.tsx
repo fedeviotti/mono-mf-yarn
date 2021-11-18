@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { Button } from '@fedeviotti/library';
+import { ButtonLib } from '@fedeviotti/library';
 
 import './index.scss';
 
@@ -10,9 +10,9 @@ const App = () => (
     <div>Framework: react</div>
     <div>Language: TypeScript</div>
     <div>CSS: Tailwind</div>
-    <Button
+    <ButtonLib
       type="primary"
-      text="A Button"
+      text="My first button"
       onClick={() => window.console.log('Click')}
     />
   </div>
