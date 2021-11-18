@@ -1,5 +1,5 @@
 {
-  "name": "host",
+  "name": "@fedeviotti/host",
   "version": "1.0.0",
   "scripts": {
     "build": "webpack --mode production",
@@ -27,15 +27,16 @@
     "html-webpack-plugin": "^5.3.2",
     "postcss": "^8.2.1",
     "postcss-loader": "^4.1.0",
+    "prettier": "^2.4.1",
     "style-loader": "^3.3.0",
+    "tailwindcss": "^2.0.2",
     "webpack": "^5.57.1",
     "webpack-cli": "^4.9.0",
-    "webpack-dev-server": "^4.3.1",
-    "tailwindcss": "^2.0.2"
+    "webpack-dev-server": "^4.3.1"
   },
   "dependencies": {
-    "react-ts-lib-fv": "1.0.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "@fedeviotti/library": "1.0.0"
   }
 }
