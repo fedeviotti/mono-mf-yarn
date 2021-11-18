@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
-  "repository":"https://github.com/fedeviotti/mono-mf-yarn.git",
+  "repository": "https://github.com/fedeviotti/mono-mf-yarn.git",
   "files": [
     "dist"
   ],
@@ -13,16 +13,24 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rimraf dist",
     "start": "rollup -c -w",
-    "build": "yarn run clean && rollup -c"
+    "build": "yarn run clean && rollup -c",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "keywords": [],
   "author": "fedeviotti",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.16.0",
     "@rollup/plugin-commonjs": "^20.0.0",
     "@rollup/plugin-node-resolve": "^13.0.4",
     "@rollup/plugin-typescript": "^8.2.5",
+    "@storybook/addon-actions": "^6.3.12",
+    "@storybook/addon-essentials": "^6.3.12",
+    "@storybook/addon-links": "^6.3.12",
+    "@storybook/react": "^6.3.12",
     "@types/react": "^17.0.18",
+    "babel-loader": "^8.2.3",
     "react": "^17.0.2",
     "rimraf": "^3.0.2",
     "rollup": "^2.56.2",
@@ -34,5 +42,6 @@
   },
   "peerDependencies": {
     "react": "^17.0.2"
-  }
+  },
+  "dependencies": {}
 }
