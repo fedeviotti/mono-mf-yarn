@@ -970,11 +970,6 @@
   resolved "https://registry.yarnpkg.com/@discoveryjs/json-ext/-/json-ext-0.5.5.tgz#9283c9ce5b289a3c4f61c12757469e59377f81f3"
   integrity sha512-6nFkfkmSeV/rqSaS4oWHgmpnYw194f6hmWF5is6b0J1naJZoiD0NTc9AiUwPHvWsowkjuHErCZT1wa0jg+BLIA==
 
-"@fedeviotti/library@1.0.0":
-  version "1.0.0"
-  resolved "https://npm.pkg.github.com/download/@fedeviotti/library/1.0.0/4b18a605b1e02ec262763513f3e6e4c127573fadc498e798ec3aea215c8396f9#e3eec8143617e8a90493d6619f2c7ccf29adef4f"
-  integrity sha512-JQiMmHqDuNYXt2jNmQA7FerGZ/MCZoJMNXnAJV65HEC5bdDASyqexlKho6tzyDX0ft7fpq4pPcNaniMtU8VbRg==
-
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"
