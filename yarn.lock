@@ -1220,6 +1220,11 @@
   resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.2.5.tgz#8eed982e2ee6f7f4e44c253e12962980791efd46"
   integrity sha512-6U71C2Wp7r5XtFtQzYrW5iKFT67OixrSxjI4MptCHzdSVlgabczzqLe0ZSgnub/5Kp4hSbpDB1tMytZY9pwxxA==
 
+"@fedeviotti/library@1.0.1":
+  version "1.0.1"
+  resolved "https://npm.pkg.github.com/download/@fedeviotti/library/1.0.1/b78ef6e59e6acb3405dbfd5e3e543c96adb6148427fd4ce97495d95b49c7c06c#15292f780191716a878a87816a34d0d455684ca6"
+  integrity sha512-5rGzIVmDU/nrzlGOWA9B2Sif4y7DuTA5KKdCHkV6TCCw5a/Tz6Ue234BFen6r1BmdqNU0KxiJUy7kCZ7WdeqIA==
+
 "@gar/promisify@^1.0.1":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@gar/promisify/-/promisify-1.1.2.tgz#30aa825f11d438671d585bd44e7fd564535fc210"
