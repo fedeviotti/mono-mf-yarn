@@ -1,4 +1,9 @@
 {
   "private": true,
-  "workspaces": ["packages/*"]
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "build:library": "cd packages/library && yarn run build",
+    "build:all-libraries": "yarn run build:library",
+    "postinstall": "yarn run build:all-libraries"
+  }
 }
