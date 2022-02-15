@@ -17,4 +17,4 @@ const App = () => (
     />
   </div>
 );
-ReactDOM.render(<App />, document.getElementById('host'));
+ReactDOM.render(<App />, document.getElementById('app'));
